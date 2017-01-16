@@ -6,7 +6,7 @@
  * Time: 0:24
  */
 
-namespace MasterZero\widgets;
+namespace masterzero\widgets;
 
 
 class NestableAsset extends \kartik\base\AssetBundle {

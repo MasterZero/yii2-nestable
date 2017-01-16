@@ -1,6 +1,6 @@
 <?php
 
-namespace MasterZero\widgets;
+namespace masterzero\widgets;
 
 use \Yii;
 use kartik\icons\FontAwesomeAsset;
