@@ -114,19 +114,19 @@ class Nestable extends \slatiusa\nestable\Nestable
     public function registerTranslations()
     {
         $i18n = \Yii::$app->i18n;
-        $i18n->translations['sibds/widgets/nestable/*'] = [
+        $i18n->translations['masterzero/widgets/nestable/*'] = [
             'class' => 'yii\i18n\PhpMessageSource',
             'sourceLanguage' => 'en-US',
-            'basePath' => '@vendor/sibds/yii2-nestable/messages',
+            'basePath' => '@vendor/masterzero/yii2-nestable/messages',
             'fileMap' => [
-                'sibds/widgets/nestable/messages' => 'messages.php',
+                'masterzero/widgets/nestable/messages' => 'messages.php',
             ],
         ];
     }
 
     public static function t($category, $message, $params = [], $language = null)
     {
-        return Yii::t('sibds/widgets/nestable/' . $category, $message, $params, $language);
+        return Yii::t('masterzero/widgets/nestable/' . $category, $message, $params, $language);
     }
 
     /**
