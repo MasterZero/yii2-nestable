@@ -4,7 +4,8 @@
     "version": "v1.0.0",
     "require": {
         "yiisoft/yii2": "*",
-        "slatiusa/yii2-nestable": "^1.2.1"
+        "slatiusa/yii2-nestable": "^1.2.1",
+        "kartik-v/yii2-icons": "@dev"
     },
     "autoload": {
         "psr-4": {
