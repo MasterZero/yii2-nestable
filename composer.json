@@ -1,7 +1,7 @@
 {
     "name": "masterzero/yii2-nestable",
     "description": "fixed version of sibds creators",
-    "version": "1.0",
+    "version": "v1.0.0",
     "require": {
         "yiisoft/yii2": "*",
         "slatiusa/yii2-nestable": "^1.2.1"
