@@ -1,7 +1,7 @@
 {
     "name": "masterzero/yii2-nestable",
-    "description": "fixed version of sibds creators",
-    "version": "v1.0.0",
+    "description": "Plugin for yii2-nestable by ASlatius to view nested sets nodes",
+    "version": "v1.0.1",
     "require": {
         "yiisoft/yii2": "*",
         "slatiusa/yii2-nestable": "^1.2.1",
